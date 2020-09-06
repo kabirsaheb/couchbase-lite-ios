@@ -103,7 +103,7 @@ for SDK in "${SDKS[@]}"
     ACTION="build"
     if [[ ${ROUND} == 0 ]]
     then
-      ACTION="clean build"
+      ACTION="build"
     fi
 
     #Run xcodebuild:
